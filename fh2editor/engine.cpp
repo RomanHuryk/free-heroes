@@ -134,7 +134,7 @@ quint32 H2::File::readLE16(void)
 {
     quint16 res = 0;
 
-    if(pos() + sizeof(res) <= size())
+    if(pos() + (qint64)sizeof(res) <= size())
     {
 	read((char*) &res, sizeof(res));
 	res = qFromLittleEndian(res);
@@ -149,7 +149,7 @@ quint32 H2::File::readLE32(void)
 {
     quint32 res = 0;
 
-    if(pos() + sizeof(res) <= size())
+    if(pos() + (qint64)sizeof(res) <= size())
     {
 	read((char*) &res, sizeof(res));
 	res = qFromLittleEndian(res);
@@ -164,7 +164,7 @@ quint32 H2::File::readByte(void)
 {
     quint8 res = 0;
 
-    if(pos() + sizeof(res) <= size())
+    if(pos() + (qint64)sizeof(res) <= size())
     {
 	read((char*) &res, 1);
     }
@@ -184,7 +184,7 @@ QByteArray H2::File::readBlock(size_t sz, int ps)
     if(0 <= ps)
 	seek(ps);
 
-    if(pos() + sz <= size())
+    if(pos() + (qint64)sz <= size())
 	return read(sz);
     else
 	qWarning() << "H2::File::readBlock:" << "out of range";
