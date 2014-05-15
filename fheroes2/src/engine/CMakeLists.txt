@@ -28,11 +28,3 @@ endif()
 if(ENABLE_NETWORK)
 	target_link_libraries(engine ${SDL_NET_LIBRARIES})
 endif()
-
-if(ENABLE_GITHASH)
-	execute_process(COMMAND git rev-parse --short HEAD
-		WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
-		OUTPUT_VARIABLE GIT_HASH
-		OUTPUT_STRIP_TRAILING_WHITESPACE)
-	add_definitions(-DGIT_HASH="${GIT_HASH}")
-endif()
