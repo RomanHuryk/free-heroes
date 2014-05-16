@@ -34,8 +34,8 @@
 #include <list>
 #include <vector>
 
-#include "pairs.h"
-#include "ai.h"
+#include "ai/ai.h"
+#include "maps/pairs.h"
 
 struct IndexObjectMap : public std::map<s32, int>
 {

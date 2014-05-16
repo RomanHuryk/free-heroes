@@ -21,18 +21,19 @@
  ***************************************************************************/
 
 #include <string>
-#include "agg.h"
-#include "button.h"
-#include "cursor.h"
-#include "speed.h"
-#include "dialog.h"
-#include "settings.h"
-#include "resource.h"
-#include "castle.h"
-#include "kingdom.h"
-#include "game.h"
-#include "world.h"
-#include "text.h"
+ 
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/speed.h"
+#include "kingdom/world.h"
+#include "resource/resource.h"
+#include "system/settings.h"
 
 struct dwelling_t : public std::pair<u32, u32>
 {

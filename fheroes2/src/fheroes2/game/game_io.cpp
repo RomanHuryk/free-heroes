@@ -20,27 +20,30 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <fstream>
-#include <sstream>
+#include "game/game_io.h"
+
 #include <cstring>
 #include <ctime>
-#include "zzlib.h"
-#include "text.h"
-#include "settings.h"
-#include "kingdom.h"
-#include "heroes.h"
-#include "castle.h"
-#include "dialog.h"
-#include "army.h"
-#include "world.h"
-#include "interface_gamearea.h"
-#include "settings.h"
+#include <fstream>
+#include <sstream>
+
 #include "tools.h"
-#include "game.h"
-#include "game_over.h"
-#include "game_static.h"
-#include "monster.h"
-#include "game_io.h"
+#include "zzlib.h"
+ 
+#include "army/army.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "game/game_over.h"
+#include "game/game_static.h"
+#include "gui/interface_gamearea.h"
+#include "gui/text.h"
+#include "heroes/heroes.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/world.h"
+#include "monster/monster.h"
+#include "system/settings.h"
+#include "system/settings.h"
 
 static u16 SAV2ID = 0xFF02;
 

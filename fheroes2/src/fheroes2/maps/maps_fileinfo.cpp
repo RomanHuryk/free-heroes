@@ -20,21 +20,23 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "maps/maps_fileinfo.h"
+ 
 #include <cstring>
-#include <locale>
 #include <algorithm>
 #include <fstream>
-#include "difficulty.h"
-#include "color.h"
-#include "race.h"
-#include "world.h"
-#include "settings.h"
-#include "dir.h"
-#include "artifact.h"
-#include "game.h"
-#include "game_io.h"
-#include "game_over.h"
-#include "maps_fileinfo.h"
+
+ 
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "game/game_io.h"
+#include "game/game_over.h"
+#include "kingdom/color.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "resource/artifact.h"
+#include "system/dir.h"
+#include "system/settings.h"
 
 #define LENGTHNAME		16
 #define LENGTHDESCRIPTION	143

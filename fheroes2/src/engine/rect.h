@@ -22,10 +22,11 @@
 #ifndef H2RECT_H
 #define H2RECT_H
 
-#include <vector>
+#include <functional>
 #include <string>
 #include <utility>
-#include <functional>
+#include <vector>
+ 
 #include "types.h"
 
 struct Point

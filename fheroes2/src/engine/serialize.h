@@ -24,9 +24,9 @@
 #define H2IO_H
 
 #include <list>
-#include <vector>
 #include <map>
 #include <string>
+#include <vector>
 
 #include "types.h"
 

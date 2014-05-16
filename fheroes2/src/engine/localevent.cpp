@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "error.h"
-#include "display.h"
+#include "localevent.h"
+ 
 #include "audio_music.h"
 #include "audio_mixer.h"
-#include "localevent.h"
+#include "display.h"
+#include "error.h"
 
 #define TAP_DELAY_EMULATE 1050
 

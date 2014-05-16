@@ -22,15 +22,16 @@
 
 #include <cstring>
 
-#include "resource.h"
-#include "mp2.h"
-#include "race.h"
-#include "game.h"
-#include "settings.h"
-#include "difficulty.h"
-#include "skill_static.h"
-#include "skill.h"
-#include "game_static.h"
+#include "game/game_static.h"
+ 
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "heroes/skill.h"
+#include "heroes/skill_static.h"
+#include "kingdom/race.h"
+#include "maps/mp2.h"
+#include "resource/resource.h"
+#include "system/settings.h"
 
 namespace Skill
 {

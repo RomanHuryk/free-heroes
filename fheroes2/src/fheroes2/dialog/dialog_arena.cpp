@@ -20,14 +20,15 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "text.h"
-#include "settings.h"
-#include "cursor.h"
-#include "button.h"
-#include "skill.h"
-#include "game.h"
-#include "dialog.h"
+#include "dialog/dialog.h"
+ 
+#include "agg/agg.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "heroes/skill.h"
+#include "system/settings.h"
 
 void	InfoSkillClear(const Rect &, const Rect &, const Rect &, const Rect &);
 void	InfoSkillSelect(int, const Rect &, const Rect &, const Rect &, const Rect &);

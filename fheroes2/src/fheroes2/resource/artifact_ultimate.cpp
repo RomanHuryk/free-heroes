@@ -20,9 +20,10 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "maps.h"
-#include "interface_gamearea.h"
-#include "artifact_ultimate.h"
+#include "resource/artifact_ultimate.h"
+ 
+#include "gui/interface_gamearea.h"
+#include "maps/maps.h"
 
 UltimateArtifact::UltimateArtifact() : index(-1), isfound(false)
 {

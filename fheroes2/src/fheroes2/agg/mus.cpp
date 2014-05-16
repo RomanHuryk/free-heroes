@@ -20,14 +20,16 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <string>
-#include <sstream>
+#include "agg/mus.h"
+
 #include <iomanip>
-#include "race.h"
-#include "ground.h"
-#include "mus.h"
-#include "settings.h"
-#include "mp2.h"
+#include <sstream>
+#include <string>
+
+#include "maps/ground.h"
+#include "maps/mp2.h"
+#include "kingdom/race.h"
+#include "system/settings.h"
 
 namespace MUS
 {

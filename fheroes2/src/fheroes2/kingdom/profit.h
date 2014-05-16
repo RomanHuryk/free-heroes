@@ -23,7 +23,7 @@
 #ifndef H2PROFIT_H
 #define H2PROFIT_H
 
-#include "payment.h"
+#include "kingdom/payment.h"
 
 namespace ProfitConditions
 {

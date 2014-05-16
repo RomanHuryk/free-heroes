@@ -27,18 +27,20 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                           *
  *******************************************************************************/
 
+#include "ai/simple/ai_simple.h"
+ 
 #include <algorithm>
 #include <functional>
-#include "settings.h"
-#include "heroes.h"
-#include "castle.h"
-#include "speed.h"
-#include "battle_arena.h"
-#include "battle_cell.h"
-#include "battle_troop.h"
-#include "battle_interface.h"
-#include "battle_command.h"
-#include "ai_simple.h"
+ 
+#include "battle/battle_arena.h"
+#include "battle/battle_cell.h"
+#include "battle/battle_troop.h"
+#include "battle/battle_interface.h"
+#include "battle/battle_command.h"
+#include "castle/castle.h"
+#include "heroes/heroes.h"
+#include "kingdom/speed.h"
+#include "system/settings.h"
 
 namespace Battle
 {

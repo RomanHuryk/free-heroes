@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "maps.h"
-#include "world.h"
-#include "game.h"
-#include "settings.h"
-#include "position.h"
+#include "maps/position.h"
+ 
+#include "game/game.h"
+#include "kingdom/world.h"
+#include "maps/maps.h"
+#include "system/settings.h"
 
 MapPosition::MapPosition(const Point & pt) : center(pt)
 {

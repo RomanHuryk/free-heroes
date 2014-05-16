@@ -23,12 +23,14 @@
 #ifndef H2BATTLE_H
 #define H2BATTLE_H
 
+#include "army/army.h"
+
 #include <vector>
 #include <utility>
-#include "icn.h"
-#include "m82.h"
-#include "gamedefs.h"
-#include "army.h"
+ 
+#include "agg/icn.h"
+#include "agg/m82.h"
+#include "system/gamedefs.h"
 
 namespace Battle
 {
@@ -40,6 +42,8 @@ namespace Battle
     class Bridge;
     class Interface;
 
+    typedef std::vector<s32> Indexes;
+    
     enum { RESULT_LOSS = 0x01, RESULT_RETREAT = 0x02, RESULT_SURRENDER = 0x04, RESULT_WINS = 0x80 };
 
     struct Result

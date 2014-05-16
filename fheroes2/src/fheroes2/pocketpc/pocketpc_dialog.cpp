@@ -18,15 +18,17 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
+#include "pocketpc/pocketpc.h"
+
 #include "engine.h"
-#include "cursor.h"
-#include "battle.h"
-#include "battle_board.h"
-#include "game.h"
-#include "text.h"
-#include "settings.h"
-#include "pocketpc.h"
+ 
+#include "agg/agg.h"
+#include "battle/battle.h"
+#include "battle/battle_board.h"
+#include "game/game.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "system/settings.h"
 
 #ifdef ANDROID
 #include <SDL/SDL_screenkeyboard.h>

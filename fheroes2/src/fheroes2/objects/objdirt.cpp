@@ -20,11 +20,13 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "objects/objdirt.h"
+
 #include <algorithm>
-#include "mp2.h"
-#include "icn.h"
-#include "direction.h"
-#include "objdirt.h"
+ 
+#include "agg/icn.h"
+#include "heroes/direction.h"
+#include "maps/mp2.h"
 
 int ObjDirt::GetPassable(u32 index)
 {

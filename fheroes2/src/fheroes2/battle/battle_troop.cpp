@@ -20,22 +20,25 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "battle/battle_troop.h"
+
 #include <cstring>
 #include <algorithm>
 #include <functional>
+ 
 #include "engine.h"
-#include "agg.h"
-#include "world.h"
-#include "luck.h"
-#include "morale.h"
-#include "speed.h"
-#include "heroes.h"
-#include "settings.h"
-#include "battle_arena.h"
-#include "battle_cell.h"
-#include "battle_interface.h"
-#include "battle_troop.h"
-#include "game_static.h"
+ 
+#include "agg/agg.h"
+#include "battle/battle_arena.h"
+#include "battle/battle_cell.h"
+#include "battle/battle_interface.h"
+#include "game/game_static.h"
+#include "heroes/heroes.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
+#include "kingdom/speed.h"
+#include "kingdom/world.h"
+#include "system/settings.h"
 
 namespace Battle
 {

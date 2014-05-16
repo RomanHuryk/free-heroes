@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "rect.h"
+ 
 #include <climits>
 #include <algorithm>
 #include <iterator>
 #include <sstream>
-#include "rect.h"
 
 Point::Point() : x(0), y(0)
 {

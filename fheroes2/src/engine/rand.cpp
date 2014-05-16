@@ -20,12 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "rand.h"
+
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
 #include <iterator>
-#include "rand.h"
-
 
 void Rand::Init(void){ std::srand((u32) std::time(0)); }
 

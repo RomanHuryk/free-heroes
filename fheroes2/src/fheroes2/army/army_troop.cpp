@@ -20,16 +20,17 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "army/army_troop.h"
+ 
 #include <sstream>
 
-#include "speed.h"
-#include "settings.h"
-#include "game.h"
-#include "luck.h"
-#include "morale.h"
-#include "army.h"
-#include "heroes_base.h"
-#include "army_troop.h"
+#include "army/army.h"
+#include "game/game.h"
+#include "heroes/heroes_base.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
+#include "kingdom/speed.h"
+#include "system/settings.h"
 
 Troop::Troop() : Monster(Monster::UNKNOWN), count(0)
 {

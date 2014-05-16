@@ -20,26 +20,28 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "game/game.h"
+ 
+#include <cstring>
+#include <ctime>
 #include <algorithm>
 #include <fstream>
 #include <sstream>
-#include <vector>
 #include <string>
-#include <cstring>
-#include <ctime>
+#include <vector>
 
 #include "system.h"
-#include "gamedefs.h"
-#include "text.h"
-#include "agg.h"
-#include "cursor.h"
-#include "button.h"
-#include "dialog.h"
-#include "settings.h"
-#include "world.h"
 #include "zzlib.h"
-#include "game.h"
-#include "game_over.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "game/game_over.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "kingdom/world.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 #define HGS_ID	0xF1F3
 #define HGS_MAX	10

@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "maps.h"
-#include "settings.h"
-#include "game_interface.h"
-#include "interface_border.h"
+#include "gui/interface_border.h"
+ 
+#include "agg/agg.h"
+#include "game/game_interface.h"
+#include "maps/maps.h"
+#include "system/settings.h"
 
 void Interface::GameBorderRedraw(void)
 {

@@ -20,23 +20,24 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "game/game_interface.h"
+
 #include <vector>
 #include <algorithm>
 
-#include "agg.h"
-#include "button.h"
-#include "dialog.h"
-#include "world.h"
-#include "cursor.h"
-#include "castle.h"
-#include "heroes.h"
-#include "game.h"
-#include "game_interface.h"
-#include "game_io.h"
-#include "game_over.h"
-#include "settings.h"
-#include "kingdom.h"
-#include "pocketpc.h"
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "game/game_io.h"
+#include "game/game_over.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "heroes/heroes.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/world.h"
+#include "pocketpc/pocketpc.h"
+#include "system/settings.h"
 
 void Interface::Basic::ShowPathOrStartMoveHero(Heroes* hero, s32 dst_index)
 {

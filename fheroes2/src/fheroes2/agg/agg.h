@@ -24,13 +24,13 @@
 #define H2AGG_H
 
 #include <vector>
-#include "gamedefs.h"
-#include "icn.h"
-#include "til.h"
-#include "m82.h"
-#include "mus.h"
-#include "xmi.h"
-#include "sprite.h"
+#include "agg/icn.h"
+#include "agg/m82.h"
+#include "agg/mus.h"
+#include "agg/sprite.h"
+#include "agg/til.h"
+#include "agg/xmi.h"
+#include "system/gamedefs.h"
 
 namespace AGG
 {	

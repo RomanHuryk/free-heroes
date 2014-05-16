@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "text.h"
-#include "cursor.h"
-#include "settings.h"
-#include "dialog.h"
+#include "dialog/dialog.h"
+ 
+#include "agg/agg.h"
+#include "gui/text.h"
+#include "gui/cursor.h"
+#include "system/settings.h"
 
 #define BUTTON_HEIGHT   40
 #define BOX_WIDTH       306

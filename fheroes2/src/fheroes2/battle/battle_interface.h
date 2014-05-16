@@ -24,14 +24,17 @@
 #define H2BATTLE_INTERFACE_H
 
 #include <string>
-#include "icn.h"
-#include "button.h"
-#include "dialog.h"
-#include "text.h"
-#include "statusbar.h"
-#include "gamedefs.h"
-#include "battle_board.h"
 
+#include "agg/icn.h"
+#include "agg/sprite.h"
+#include "battle/battle_board.h"
+#include "dialog/dialog.h"
+#include "gui/button.h"
+#include "gui/statusbar.h"
+#include "gui/text.h"
+#include "spell/spell.h"
+#include "system/gamedefs.h"
+ 
 namespace Battle
 {
     class Arena;

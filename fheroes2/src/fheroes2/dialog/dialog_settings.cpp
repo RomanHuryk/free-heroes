@@ -20,14 +20,16 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "dialog/dialog.h"
+
 #include <algorithm>
-#include "agg.h"
-#include "text.h"
-#include "settings.h"
-#include "cursor.h"
-#include "button.h"
-#include "dialog.h"
-#include "interface_list.h"
+ 
+#include "agg/agg.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/interface_list.h"
+#include "gui/text.h"
+#include "system/settings.h"
 
 class SettingsListBox : public Interface::ListBox<u32>
 {

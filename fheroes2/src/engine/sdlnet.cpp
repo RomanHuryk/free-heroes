@@ -22,9 +22,10 @@
 
 #ifdef WITH_NET
 
-#include <algorithm>
-#include <cstring>
 #include "sdlnet.h"
+ 
+#include <cstring>
+#include <algorithm>
 
 
 Network::Socket::Socket() : sd(NULL), sdset(NULL), status(0)

@@ -20,14 +20,15 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "cursor.h"
-#include "settings.h"
-#include "dialog.h"
-#include "text.h"
-#include "game.h"
-#include "game_io.h"
-#include "pocketpc.h"
+#include "pocketpc/pocketpc.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "game/game_io.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "system/settings.h"
 
 int PocketPC::LoadGame(void)
 {

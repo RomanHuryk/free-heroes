@@ -25,11 +25,11 @@
 
 #include <list>
 
-#include "gamedefs.h"
-#include "ai.h"
-#include "spell_storage.h"
-#include "battle_board.h"
-#include "battle_grave.h"
+#include "ai/ai.h"
+#include "battle/battle_board.h"
+#include "battle/battle_grave.h"
+#include "spell/spell_storage.h"
+#include "system/gamedefs.h"
 
 #define ARENAW 11
 #define ARENAH 9

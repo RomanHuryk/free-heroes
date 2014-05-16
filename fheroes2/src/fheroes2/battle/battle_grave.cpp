@@ -20,10 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "battle/battle_grave.h"
+
 #include <algorithm>
-#include "battle_troop.h"
-#include "battle_board.h"
-#include "battle_grave.h"
+ 
+#include "battle/battle_board.h"
+#include "battle/battle_troop.h"
 
 Battle::Indexes Battle::Graveyard::GetClosedCells(void) const
 {

@@ -22,10 +22,10 @@
 #ifndef H2MAPS_ACTIONS_H
 #define H2MAPS_ACTIONS_H
 
-#include "position.h"
-#include "artifact.h"
-#include "resource.h"
-#include "color.h"
+#include "kingdom/color.h"
+#include "maps/position.h"
+#include "resource/artifact.h"
+#include "resource/resource.h"
 
 class Heroes;
 enum { ACTION_UNKNOWN = 0, ACTION_DEFAULT, ACTION_ACCESS, ACTION_MESSAGE, ACTION_RESOURCES, ACTION_ARTIFACT };

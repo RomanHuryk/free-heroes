@@ -20,22 +20,24 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "heroes/skill.h"
+ 
 #include <sstream>
 #include <cstring>
 #include <algorithm>
-#include "gamedefs.h"
-#include "race.h"
-#include "text.h"
-#include "agg.h"
-#include "cursor.h"
-#include "game.h"
-#include "dialog.h"
-#include "dialog_selectitems.h"
-#include "heroes.h"
-#include "settings.h"
-#include "skill_static.h"
-#include "game_static.h"
-#include "skill.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "dialog/dialog_selectitems.h"
+#include "game/game.h"
+#include "game/game_static.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "heroes/heroes.h"
+#include "heroes/skill_static.h"
+#include "kingdom/race.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 namespace Skill
 {

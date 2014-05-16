@@ -22,11 +22,13 @@
 
 #ifdef WITH_TTF
 
-#include <iostream>
 #include "font.h"
+
+#include <iostream>
+#include <SDL_ttf.h>
+
 #include "engine.h"
 #include "surface.h"
-#include "SDL_ttf.h"
 
 SDL::Font::Font() : fnt(NULL)
 {

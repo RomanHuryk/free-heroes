@@ -20,11 +20,13 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "battle/battle_command.h"
+ 
 #include <algorithm>
-#include "settings.h"
-#include "spell.h"
-#include "battle_arena.h"
-#include "battle_command.h"
+ 
+#include "battle/battle_arena.h"
+#include "spell/spell.h"
+#include "system/settings.h"
 
 bool Battle::Actions::HaveCommand(u32 cmd) const
 {

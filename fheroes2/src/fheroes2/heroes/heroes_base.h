@@ -24,11 +24,11 @@
 #ifndef H2HEROESBASE_H
 #define H2HEROESBASE_H
 
-#include "bitmodes.h"
-#include "skill.h"
-#include "spell_book.h"
-#include "artifact.h"
-#include "position.h"
+#include "heroes/skill.h"
+#include "maps/position.h"
+#include "resource/artifact.h"
+#include "spell/spell_book.h"
+#include "system/bitmodes.h"
 
 class Army;
 class Castle;

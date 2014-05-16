@@ -20,28 +20,31 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "battle/battle_arena.h"
+
 #include <algorithm>
-#include "settings.h"
+ 
 #include "tools.h"
-#include "army.h"
-#include "cursor.h"
-#include "castle.h"
-#include "world.h"
-#include "agg.h"
-#include "speed.h"
-#include "ground.h"
-#include "race.h"
-#include "army_troop.h"
-#include "spell_storage.h"
-#include "battle_arena.h"
-#include "battle_cell.h"
-#include "battle_army.h"
-#include "battle_troop.h"
-#include "battle_tower.h"
-#include "battle_catapult.h"
-#include "battle_bridge.h"
-#include "battle_command.h"
-#include "battle_interface.h"
+ 
+#include "agg/agg.h"
+#include "army/army.h"
+#include "army/army_troop.h"
+#include "battle/battle_cell.h"
+#include "battle/battle_army.h"
+#include "battle/battle_troop.h"
+#include "battle/battle_tower.h"
+#include "battle/battle_catapult.h"
+#include "battle/battle_bridge.h"
+#include "battle/battle_command.h"
+#include "battle/battle_interface.h"
+#include "castle/castle.h"
+#include "gui/cursor.h"
+#include "kingdom/race.h"
+#include "kingdom/speed.h"
+#include "kingdom/world.h"
+#include "maps/ground.h"
+#include "spell/spell_storage.h"
+#include "system/settings.h"
 
 namespace Battle
 {

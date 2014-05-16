@@ -20,10 +20,11 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "maps_tiles.h"
-#include "direction.h"
-#include "world.h"
-#include "ground.h"
+#include "maps/ground.h"
+ 
+#include "heroes/direction.h"
+#include "kingdom/world.h"
+#include "maps/maps_tiles.h"
 
 const char* Maps::Ground::String(int ground)
 {

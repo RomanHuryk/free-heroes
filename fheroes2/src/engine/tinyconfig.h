@@ -23,10 +23,10 @@
 #ifndef TINYCONFIG_H
 #define TINYCONFIG_H
 
-#include <ostream>
-#include <string>
 #include <list>
 #include <map>
+#include <ostream>
+#include <string>
 
 class TinyConfig : protected std::multimap<std::string, std::string>
 {

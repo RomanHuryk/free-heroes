@@ -23,12 +23,12 @@
 #ifndef H2EDITOR_DIALOGS_H
 #define H2EDITOR_DIALOGS_H
 
-#include "dialog.h"
-#include "monster.h"
-#include "heroes.h"
-#include "artifact.h"
-#include "spell.h"
-#include "skill.h"
+#include "dialog/dialog.h"
+#include "heroes/heroes.h"
+#include "heroes/skill.h"
+#include "monster/monster.h"
+#include "resource/artifact.h"
+#include "spell/spell.h"
 
 namespace Dialog
 {

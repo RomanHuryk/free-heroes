@@ -20,16 +20,19 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <algorithm>
-#include <sstream>
-#include <fstream>
-#include <iostream>
-#include <iomanip>
-#include <cstring>
+#include "tools.h"
+ 
 #include <climits>
+#include <cstring>
+
+#include <algorithm>
+#include <fstream>
+#include <iomanip>
+#include <iostream>
+#include <sstream>
+ 
 #include "error.h"
 #include "types.h"
-#include "tools.h"
 
 /* trim left right space */
 std::string StringTrim(std::string str)

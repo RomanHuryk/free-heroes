@@ -20,19 +20,21 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "button.h"
-#include "cursor.h"
-#include "difficulty.h"
-#include "settings.h"
-#include "dialog.h"
-#include "maps.h"
-#include "maps_fileinfo.h"
-#include "game.h"
-#include "dialog_selectscenario.h"
-#include "text.h"
+#include "pocketpc/pocketpc.h"
+
 #include "tools.h"
-#include "pocketpc.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "dialog/dialog_selectscenario.h"
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "maps/maps.h"
+#include "maps/maps_fileinfo.h"
+#include "system/settings.h"
 
 int PocketPC::SelectScenario(void)
 {

@@ -20,20 +20,21 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "castle.h"
-#include "difficulty.h"
-#include "mp2.h"
-#include "speed.h"
-#include "settings.h"
-#include "luck.h"
-#include "spell.h"
-#include "race.h"
-#include "morale.h"
-#include "payment.h"
-#include "game_static.h"
-#include "icn.h"
-#include "game.h"
-#include "monster.h"
+#include "monster/monster.h"
+ 
+#include "agg/icn.h"
+#include "castle/castle.h"
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "game/game_static.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
+#include "kingdom/payment.h"
+#include "kingdom/race.h"
+#include "kingdom/speed.h"
+#include "maps/mp2.h"
+#include "spell/spell.h"
+#include "system/settings.h"
 
 struct monstats_t
 {

@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "settings.h"
-#include "game.h"
-#include "game_interface.h"
-#include "interface_cpanel.h"
+#include "gui/interface_cpanel.h"
+ 
+#include "agg/agg.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "system/settings.h"
 
 Interface::ControlPanel::ControlPanel(Basic & basic) : interface(basic)
 {

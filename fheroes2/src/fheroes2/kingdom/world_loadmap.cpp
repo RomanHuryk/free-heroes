@@ -20,29 +20,29 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include <algorithm>
 #include <fstream>
 #include <functional>
-#include <algorithm>
-#include "agg.h" 
-#include "artifact.h"
-#include "resource.h"
-#include "settings.h" 
-#include "kingdom.h" 
-#include "heroes.h" 
-#include "castle.h" 
-#include "game_static.h"
-#include "mp2.h"
-#include "text.h"
-#include "race.h"
-#include "pairs.h"
-#include "game_over.h"
-#include "difficulty.h"
-#include "maps_tiles.h"
-#include "maps_actions.h"
-#include "resource.h"
-#include "game.h"
-#include "world.h"
-#include "ai.h"
+
+#include "ai/ai.h"
+#include "agg/agg.h" 
+#include "castle/castle.h" 
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "game/game_over.h"
+#include "game/game_static.h"
+#include "gui/text.h"
+#include "heroes/heroes.h" 
+#include "kingdom/kingdom.h" 
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "maps/maps_tiles.h"
+#include "maps/maps_actions.h"
+#include "maps/mp2.h"
+#include "maps/pairs.h"
+#include "resource/artifact.h"
+#include "resource/resource.h"
+#include "system/settings.h" 
 
 namespace GameStatic
 {

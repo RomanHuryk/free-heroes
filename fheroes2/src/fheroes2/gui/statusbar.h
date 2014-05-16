@@ -23,7 +23,7 @@
 #ifndef H2STATUSBAR_H
 #define H2STATUSBAR_H
 
-#include "text.h"
+#include "gui/text.h"
 
 class StatusBar : public TextSprite
 {

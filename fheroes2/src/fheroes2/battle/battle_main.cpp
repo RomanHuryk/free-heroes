@@ -21,22 +21,23 @@
  ***************************************************************************/
 
 #include <algorithm>
-#include "army.h"
-#include "color.h"
-#include "cursor.h"
-#include "artifact.h"
-#include "settings.h"
-#include "heroes_base.h"
-#include "skill.h"
-#include "agg.h"
-#include "text.h"
-#include "dialog.h"
-#include "world.h"
-#include "kingdom.h"
-#include "game.h"
-#include "ai.h"
-#include "battle_arena.h"
-#include "battle_army.h"
+ 
+#include "agg/agg.h"
+#include "ai/ai.h"
+#include "army/army.h"
+#include "battle/battle_arena.h"
+#include "battle/battle_army.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "heroes/heroes_base.h"
+#include "heroes/skill.h"
+#include "kingdom/color.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/world.h"
+#include "resource/artifact.h"
+#include "system/settings.h"
 
 namespace Battle
 {

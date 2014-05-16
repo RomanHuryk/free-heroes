@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "settings.h"
-#include "army_troop.h"
-#include "battle_board.h"
-#include "battle_troop.h"
-#include "battle_cell.h"
+#include "battle/battle_cell.h"
+ 
+#include "army/army_troop.h"
+#include "battle/battle_board.h"
+#include "battle/battle_troop.h"
+#include "system/settings.h"
 
 #define INFL 12
 

@@ -24,6 +24,7 @@
 #define H2GAMEOVER_H
 
 #include <string>
+#include "serialize.h"
 
 namespace GameOver
 {

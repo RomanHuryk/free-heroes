@@ -25,9 +25,9 @@
 
 #include <string>
 #include <vector>
-#include "bitmodes.h"
-#include "color.h"
-#include "gamedefs.h"
+#include "kingdom/color.h"
+#include "system/bitmodes.h"
+#include "system/gamedefs.h"
 
 namespace Maps { class FileInfo; }
 

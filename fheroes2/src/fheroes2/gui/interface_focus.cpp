@@ -20,17 +20,18 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "game/game_interface.h"
+
 #include <algorithm>
 
-#include "castle.h"
-#include "heroes.h"
-#include "cursor.h"
-#include "settings.h"
-#include "agg.h"
-#include "world.h"
-#include "kingdom.h"
-#include "game.h"
-#include "game_interface.h"
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "game/game.h"
+#include "gui/cursor.h"
+#include "heroes/heroes.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/world.h"
+#include "system/settings.h"
 
 void Interface::Basic::SetFocus(Heroes* hero)
 {

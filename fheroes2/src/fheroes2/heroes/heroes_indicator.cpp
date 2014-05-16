@@ -20,14 +20,16 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "heroes/heroes_indicator.h"
+
 #include <cmath>
-#include "agg.h"
-#include "luck.h"
-#include "dialog.h"
-#include "text.h"
-#include "morale.h"
-#include "heroes.h"
-#include "heroes_indicator.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "gui/text.h"
+#include "heroes/heroes.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
 
 const char* MoraleString(int morale)
 {

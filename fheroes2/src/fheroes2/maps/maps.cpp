@@ -20,15 +20,17 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "maps/maps.h"
+ 
 #include <algorithm>
-#include "world.h"
-#include "settings.h"
-#include "maps.h"
-#include "race.h"
-#include "game.h"
-#include "kingdom.h"
-#include "difficulty.h"
-#include "maps_tiles.h"
+ 
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "maps/maps_tiles.h"
+#include "system/settings.h"
 
 struct ComparsionDistance
 {

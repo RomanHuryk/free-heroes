@@ -20,27 +20,29 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "castle/castle.h"
+ 
 #include <algorithm>
-#include "agg.h"
-#include "difficulty.h"
-#include "settings.h"
-#include "payment.h"
-#include "world.h"
-#include "luck.h"
-#include "race.h"
-#include "text.h"
-#include "game.h"
-#include "dialog.h"
-#include "ground.h"
-#include "morale.h"
-#include "kingdom.h"
-#include "maps_tiles.h"
-#include "castle.h"
-#include "game_static.h"
-#include "ai.h"
-#include "battle_tower.h"
-#include "battle_board.h"
-#include "profit.h"
+ 
+#include "ai/ai.h"
+#include "agg/agg.h"
+#include "battle/battle_board.h"
+#include "battle/battle_tower.h"
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "game/game_static.h"
+#include "gui/text.h"
+#include "dialog/dialog.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
+#include "kingdom/payment.h"
+#include "kingdom/profit.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "maps/ground.h"
+#include "maps/maps_tiles.h"
+#include "system/settings.h"
 
 Castle::Castle() : race(Race::NONE), building(0), captain(*this), army(NULL)
 {

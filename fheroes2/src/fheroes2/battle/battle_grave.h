@@ -26,7 +26,7 @@
 #include <vector>
 #include <map>
 
-#include "gamedefs.h"
+#include "battle/battle.h"
 
 namespace Battle
 {

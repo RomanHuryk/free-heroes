@@ -20,9 +20,11 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "heroes/direction.h"
+
 #include <sstream>
-#include "maps.h"
-#include "direction.h"
+ 
+#include "maps/maps.h"
 
 std::string Direction::String(int direct)
 {

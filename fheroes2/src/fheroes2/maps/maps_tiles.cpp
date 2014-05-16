@@ -20,39 +20,41 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <list>
-#include <iostream>
-#include <iomanip>
+#include "maps/maps_tiles.h"
+ 
 #include <algorithm>
 #include <functional>
-#include "agg.h"
-#include "world.h"
-#include "race.h"
-#include "settings.h"
-#include "heroes.h"
-#include "castle.h"
-#include "mp2.h"
-#include "maps.h"
-#include "ground.h"
-#include "game.h"
-#include "game_interface.h"
-#include "mounts.h"
-#include "trees.h"
-#include "objxloc.h"
-#include "objtown.h"
-#include "objwatr.h"
-#include "objlava.h"
-#include "objmult.h"
-#include "objdsrt.h"
-#include "objdirt.h"
-#include "objsnow.h"
-#include "objswmp.h"
-#include "objgras.h"
-#include "objcrck.h"
-#include "monster.h"
-#include "spell.h"
-#include "resource.h"
-#include "maps_tiles.h"
+#include <iostream>
+#include <iomanip>
+#include <list>
+ 
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "heroes/heroes.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "maps/ground.h"
+#include "maps/maps.h"
+#include "maps/mp2.h"
+#include "monster/monster.h"
+#include "objects/mounts.h"
+#include "objects/objcrck.h"
+#include "objects/objdirt.h"
+#include "objects/objdsrt.h"
+#include "objects/objgras.h"
+#include "objects/objlava.h"
+#include "objects/objmult.h"
+#include "objects/objsnow.h"
+#include "objects/objswmp.h"
+#include "objects/objtown.h"
+#include "objects/objwatr.h"
+#include "objects/objxloc.h"
+#include "objects/trees.h"
+#include "resource/resource.h"
+#include "spell/spell.h"
+#include "system/settings.h"
 
 u8 monster_animation_cicle[] = { 0, 1, 2, 1, 0, 3, 4, 5, 4, 3 };
 

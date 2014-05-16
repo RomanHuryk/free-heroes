@@ -20,12 +20,13 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "artifact.h"
-#include "skill.h"
-#include "settings.h"
-#include "heroes_base.h"
-#include "battle_command.h"
-#include "battle_catapult.h"
+#include "battle/battle_catapult.h"
+ 
+#include "battle/battle_command.h"
+#include "heroes/heroes_base.h"
+#include "heroes/skill.h"
+#include "resource/artifact.h"
+#include "system/settings.h"
 
 Battle::Catapult::Catapult(const HeroBase & hero, bool fortification) : cat_shots(1), cat_first(20), cat_miss(true) /*, cat_fort(fortification) */
 {

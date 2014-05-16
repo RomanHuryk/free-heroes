@@ -20,12 +20,14 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "spell/spell_storage.h"
+
 #include <algorithm>
 #include <sstream>
-#include "skill.h"
-#include "settings.h"
-#include "artifact.h"
-#include "spell_storage.h"
+ 
+#include "heroes/skill.h"
+#include "resource/artifact.h"
+#include "system/settings.h"
 
 SpellStorage::SpellStorage()
 {

@@ -21,9 +21,10 @@
  ***************************************************************************/
 
 #ifdef WITH_AUDIOCD
+#include "audio_cdrom.h"
+
 #include <iostream>
 #include "audio_mixer.h"
-#include "audio_cdrom.h"
 
 namespace Cdrom
 {

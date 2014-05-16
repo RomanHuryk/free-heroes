@@ -20,12 +20,13 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "settings.h"
-#include "dialog.h"
-#include "game.h"
-#include "game_interface.h"
-#include "interface_buttons.h"
+#include "gui/interface_buttons.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "system/settings.h"
 
 Interface::ButtonsArea::ButtonsArea(Basic & basic) : BorderWindow(Rect(0, 0, 144, 72)), interface(basic)
 {

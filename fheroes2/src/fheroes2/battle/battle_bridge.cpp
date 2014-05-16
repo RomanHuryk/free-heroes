@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "castle.h"
-#include "battle_cell.h"
-#include "battle_troop.h"
-#include "battle_interface.h"
-#include "battle_bridge.h"
+#include "battle/battle_bridge.h"
+ 
+#include "battle/battle_cell.h"
+#include "battle/battle_interface.h"
+#include "battle/battle_troop.h"
+#include "castle/castle.h"
 
 Battle::Bridge::Bridge() : destroy(false), down(false)
 {

@@ -23,8 +23,8 @@
 #ifndef H2BATTLE_CELL_H
 #define H2BATTLE_CELL_H
 
-#include "gamedefs.h"
-#include "battle.h"
+#include "battle/battle.h"
+#include "system/gamedefs.h"
 
 #define CELLW 45
 #define CELLH 52

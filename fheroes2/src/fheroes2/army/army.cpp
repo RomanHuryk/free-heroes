@@ -20,27 +20,29 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "army/army.h"
+
 #include <algorithm>
 #include <functional>
 
-#include "agg.h"
-#include "settings.h"
-#include "payment.h"
-#include "world.h"
-#include "kingdom.h"
-#include "maps_tiles.h"
-#include "text.h"
-#include "race.h"
-#include "game.h"
-#include "color.h"
-#include "luck.h"
-#include "morale.h"
-#include "speed.h"
-#include "castle.h"
-#include "heroes.h"
-#include "heroes_base.h"
 #include "tools.h"
-#include "army.h"
+ 
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "game/game.h"
+#include "gui/text.h"
+#include "kingdom/color.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
+#include "kingdom/payment.h"
+#include "kingdom/race.h"
+#include "kingdom/speed.h"
+#include "kingdom/world.h"
+#include "maps/maps_tiles.h"
+#include "heroes/heroes.h"
+#include "heroes/heroes_base.h"
+#include "system/settings.h"
 
 enum armysize_t
 {

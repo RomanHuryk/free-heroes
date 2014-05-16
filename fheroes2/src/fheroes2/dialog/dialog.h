@@ -22,10 +22,10 @@
 #ifndef H2DIALOG_H
 #define H2DIALOG_H
 
-#include <string>
 #include <list>
+#include <string>
 #include <vector>
-#include "gamedefs.h"
+#include "system/gamedefs.h"
 
 #define	SHADOWWIDTH	16
 #define BOXAREA_WIDTH   245

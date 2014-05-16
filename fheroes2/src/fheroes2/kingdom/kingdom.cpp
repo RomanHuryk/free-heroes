@@ -20,24 +20,25 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "kingdom/kingdom.h"
+ 
 #include <algorithm>
 
-#include "settings.h"
-#include "castle.h"
-#include "heroes.h"
-#include "difficulty.h"
-#include "color.h"
-#include "game.h"
-#include "profit.h"
-#include "world.h"
-#include "visit.h"
-#include "race.h"
-#include "battle.h"
-#include "kingdom.h"
-#include "players.h"
-#include "game_static.h"
-#include "game_interface.h"
-#include "ai.h"
+#include "ai/ai.h"
+#include "battle/battle.h"
+#include "castle/castle.h"
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "game/game_static.h"
+#include "heroes/heroes.h"
+#include "kingdom/color.h"
+#include "kingdom/profit.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "maps/visit.h"
+#include "system/players.h"
+#include "system/settings.h"
 
 bool HeroesStrongestArmy(const Heroes* h1, const Heroes* h2)
 {

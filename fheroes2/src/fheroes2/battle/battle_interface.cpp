@@ -20,30 +20,32 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "battle/battle_interface.h"
+
 #include <cmath>
 #include <algorithm>
+
 #include "engine.h"
-#include "cursor.h"
-#include "agg.h"
-#include "settings.h"
-#include "kingdom.h"
-#include "world.h"
-#include "castle.h"
-#include "dialog.h"
-#include "game.h"
-#include "race.h"
-#include "ground.h"
-#include "settings.h"
-#include "pocketpc.h"
-#include "interface_list.h"
-#include "battle_arena.h"
-#include "battle_cell.h"
-#include "battle_troop.h"
-#include "battle_tower.h"
-#include "battle_bridge.h"
-#include "battle_catapult.h"
-#include "battle_command.h"
-#include "battle_interface.h"
+
+#include "agg/agg.h"
+#include "battle/battle_arena.h"
+#include "battle/battle_bridge.h"
+#include "battle/battle_catapult.h"
+#include "battle/battle_command.h"
+#include "battle/battle_cell.h"
+#include "battle/battle_tower.h"
+#include "battle/battle_troop.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "gui/cursor.h"
+#include "gui/interface_list.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "maps/ground.h"
+#include "pocketpc/pocketpc.h"
+#include "system/settings.h"
 
 #define  ARMYORDERW	40
 

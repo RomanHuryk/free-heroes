@@ -20,12 +20,14 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             * 
  ***************************************************************************/
 
+#include "kingdom/payment.h"
+ 
 #include <cstring>
-#include "castle.h"
-#include "race.h"
-#include "buildinginfo.h"
-#include "settings.h"
-#include "payment.h"
+ 
+#include "castle/buildinginfo.h"
+#include "castle/castle.h"
+#include "kingdom/race.h"
+#include "system/settings.h"
 
 struct paymentstats_t
 {

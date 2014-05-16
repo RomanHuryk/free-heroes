@@ -20,19 +20,21 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "heroes/heroes_base.h"
+
 #include <algorithm>
 #include <utility>
 #include <sstream>
-#include "artifact.h"
-#include "game.h"
-#include "race.h"
-#include "color.h"
-#include "army.h"
-#include "world.h"
-#include "kingdom.h"
-#include "castle.h"
-#include "settings.h"
-#include "heroes_base.h"
+ 
+#include "army/army.h"
+#include "castle/castle.h"
+#include "game/game.h"
+#include "kingdom/color.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "resource/artifact.h"
+#include "system/settings.h"
 
 int ArtifactsModifiersResult(int type, const u8* arts, u32 size, const HeroBase & base, std::string* strs)
 {

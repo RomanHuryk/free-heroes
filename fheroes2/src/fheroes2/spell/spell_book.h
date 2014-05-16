@@ -23,8 +23,8 @@
 #ifndef H2SPELLBOOK_H
 #define H2SPELLBOOK_H
 
-#include "gamedefs.h"
-#include "spell_storage.h"
+#include "spell/spell_storage.h"
+#include "system/gamedefs.h"
 
 class HeroBase;
 

@@ -13,11 +13,6 @@ option(ENABLE_AI "Enable simple AI (Non-commercial License)" OFF)
 option(ENABLE_GITHASH "Enable git HEAD hash in version number" ON)
 option(ENABLE_TOOLS "Enable building tools" ON)
 
-# if(ENABLE_TOOLS)
-# 	set(ENABLE_IMAGE ON)
-# 	set(ENABLE_MIXER ON)
-# endif()
-
 if(ENABLE_IMAGE)
 	set(ENABLE_ZLIB ON)
 endif()
@@ -85,8 +80,9 @@ if(ENABLE_GITHASH)
 	add_definitions(-DGIT_HASH="${GIT_HASH}")
 endif()
 
-include_directories(engine)
 add_subdirectory(engine)
+include_directories(engine)
+include_directories(fheroes2)
 
 file(GLOB SOURCES_LIST "fheroes2/agg/*.*"
 	"fheroes2/ai/*.*"
@@ -107,27 +103,6 @@ file(GLOB SOURCES_LIST "fheroes2/agg/*.*"
 	"fheroes2/spell/*.*"
 	"fheroes2/system/*.*"
 	"fheroes2/test/*.*")
-
-# will be fixed soon
-include_directories("fheroes2/agg"
-	"fheroes2/army"
-	"fheroes2/ai"
-	"fheroes2/battle"
-	"fheroes2/castle"
-	"fheroes2/dialog"
-	"fheroes2/game"
-	"fheroes2/gui"
-	"fheroes2/heroes"
-	"fheroes2/image"
-	"fheroes2/kingdom"
-	"fheroes2/maps"
-	"fheroes2/monster"
-	"fheroes2/objects"
-	"fheroes2/pocketpc"
-	"fheroes2/resource"
-	"fheroes2/spell"
-	"fheroes2/system"
-	"fheroes2/test")
 
 if(ENABLE_AI)
 	file(GLOB AI_SOURCES_LIST "fheroes2/ai/simple/*.*")

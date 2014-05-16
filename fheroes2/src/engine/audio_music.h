@@ -23,8 +23,9 @@
 #ifndef H2AUDIO_MUSIC_H
 #define H2AUDIO_MUSIC_H
 
+#include <vector>
 #include "types.h"
-
+ 
 namespace Music
 {
     void	Play(const u8* ptr, u32 size, bool loop);

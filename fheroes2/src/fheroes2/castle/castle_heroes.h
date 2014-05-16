@@ -25,8 +25,9 @@
 
 #include <utility>
 #include <algorithm>
-#include "gamedefs.h"
-#include "heroes.h"
+ 
+#include "heroes/heroes.h"
+#include "system/gamedefs.h"
 
 class CastleHeroes : protected std::pair<Heroes*, Heroes*>
 {

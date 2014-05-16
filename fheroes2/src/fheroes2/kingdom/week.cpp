@@ -20,12 +20,14 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "kingdom/week.h"
+
 #include "engine.h"
-#include "gamedefs.h"
-#include "settings.h"
-#include "world.h"
-#include "game.h"
-#include "week.h"
+ 
+#include "game/game.h"
+#include "kingdom/world.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 const char* Week::GetName(void) const
 {

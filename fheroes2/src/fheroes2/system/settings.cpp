@@ -20,18 +20,20 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "system/settings.h"
+
 #include <algorithm>
 #include <fstream>
 
 #include "system.h"
-#include "text.h"
-#include "maps.h"
-#include "race.h"
-#include "game.h"
+ 
+#include "dialog/dialog.h"
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "gui/text.h"
+#include "kingdom/race.h"
+#include "maps/maps.h"
 #include "tinyconfig.h"
-#include "difficulty.h"
-#include "dialog.h"
-#include "settings.h"
 
 #define DEFAULT_PORT	5154
 #define DEFAULT_DEBUG	DBG_ALL_WARN
@@ -1458,7 +1460,7 @@ void Settings::BinarySave(void) const
     }
 }
 
-#include "dialog.h"
+#include "dialog/dialog.h"
 
 void Settings::BinaryLoad(void)
 {

@@ -20,33 +20,35 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "heroes/heroes.h"
+
 #include <cmath>
 #include <algorithm>
 #include <functional>
-#include "artifact.h"
-#include "world.h"
-#include "castle.h"
-#include "settings.h"
-#include "mp2.h"
-#include "agg.h"
-#include "speed.h"
-#include "luck.h"
-#include "race.h"
-#include "direction.h"
-#include "ground.h"
-#include "morale.h"
-#include "monster.h"
-#include "payment.h"
-#include "profit.h"
-#include "cursor.h"
-#include "kingdom.h"
-#include "visit.h"
-#include "battle.h"
-#include "heroes.h"
-#include "game.h"
-#include "game_interface.h"
-#include "game_static.h"
-#include "ai.h"
+ 
+#include "ai/ai.h"
+#include "agg/agg.h"
+#include "battle/battle.h"
+#include "castle/castle.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "game/game_static.h"
+#include "gui/cursor.h"
+#include "heroes/direction.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
+#include "kingdom/payment.h"
+#include "kingdom/profit.h"
+#include "kingdom/race.h"
+#include "kingdom/speed.h"
+#include "kingdom/world.h"
+#include "maps/ground.h"
+#include "maps/mp2.h"
+#include "maps/visit.h"
+#include "monster/monster.h"
+#include "resource/artifact.h"
+#include "system/settings.h"
 
 const char* Heroes::GetName(int id)
 {

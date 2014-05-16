@@ -20,9 +20,9 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "cursor.h"
+#include "gui/cursor.h"
 #include "display.h"
-#include "statusbar.h"
+#include "gui/statusbar.h"
 
 StatusBar::StatusBar()
 {

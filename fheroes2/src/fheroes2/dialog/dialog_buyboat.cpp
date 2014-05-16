@@ -20,18 +20,20 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "dialog/dialog.h"
+ 
 #include <string>
-#include "agg.h"
-#include "text.h"
-#include "world.h"
-#include "button.h"
-#include "cursor.h"
-#include "castle.h"
-#include "kingdom.h"
-#include "settings.h"
-#include "game.h"
-#include "dialog.h"
-#include "payment.h"
+ 
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/payment.h"
+#include "kingdom/world.h"
+#include "system/settings.h"
 
 int Dialog::BuyBoat(bool enable)
 {

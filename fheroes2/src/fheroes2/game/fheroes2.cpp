@@ -20,21 +20,22 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include <cstdlib>
 #include <iostream>
 #include <string>
-#include <cstdlib>
 
 #include "engine.h"
 #include "system.h"
-#include "gamedefs.h"
-#include "settings.h"
-#include "dir.h"
-#include "agg.h"
-#include "cursor.h"
-#include "game.h"
-#include "test.h"
-#include "images_pack.h"
 #include "zzlib.h"
+ 
+#include "agg/agg.h"
+#include "game/game.h"
+#include "gui/cursor.h"
+#include "image/images_pack.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
+#include "system/dir.h"
+#include "test/test.h"
 
 void LoadZLogo(void);
 void SetVideoDriver(const std::string &);

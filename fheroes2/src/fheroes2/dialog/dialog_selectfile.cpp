@@ -20,26 +20,28 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "dialog/dialog.h"
+
+#include <cctype>
+#include <ctime>
 #include <algorithm>
 #include <iterator>
-#include <ctime>
-#include <cctype>
 #include <sstream>
 #include <string>
 
 #include "system.h"
-#include "dir.h"
-#include "agg.h"
-#include "text.h"
-#include "button.h"
-#include "cursor.h"
-#include "settings.h"
-#include "maps_fileinfo.h"
-#include "interface_list.h"
-#include "pocketpc.h"
-#include "world.h"
-#include "game.h"
-#include "dialog.h"
+
+#include "agg/agg.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/interface_list.h"
+#include "gui/text.h"
+#include "kingdom/world.h"
+#include "maps/maps_fileinfo.h"
+#include "pocketpc/pocketpc.h"
+#include "system/dir.h"
+#include "system/settings.h"
 
 std::string SelectFileListSimple(const std::string &, const std::string &, bool);
 bool RedrawExtraInfo(const Point &, const std::string &, const std::string &, const Rect &);

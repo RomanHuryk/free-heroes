@@ -20,10 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "gui/splitter.h"
+
 #include <iostream>
-#include "settings.h"
-#include "cursor.h"
-#include "splitter.h"
+ 
+#include "gui/cursor.h"
+#include "system/settings.h"
 
 /* splitter constructor */
 Splitter::Splitter() : step(0), min(0), max(0), cur(0)

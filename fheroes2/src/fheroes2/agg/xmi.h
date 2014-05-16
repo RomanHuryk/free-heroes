@@ -23,7 +23,7 @@
 #ifndef H2XMI_H
 #define H2XMI_H
 
-#include "mus.h"
+#include "agg/mus.h"
 
 namespace XMI
 {

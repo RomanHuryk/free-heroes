@@ -22,8 +22,9 @@
 #ifndef H2MAPSFILEINFO_H
 #define H2MAPSFILEINFO_H
 
+#include <string>
 #include <vector>
-#include "gamedefs.h"
+#include "system/gamedefs.h"
 
 namespace Maps
 {

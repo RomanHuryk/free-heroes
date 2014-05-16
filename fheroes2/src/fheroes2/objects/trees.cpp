@@ -20,11 +20,13 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "objects/trees.h"
+
 #include <algorithm>
-#include "mp2.h"
-#include "icn.h"
-#include "direction.h"
-#include "trees.h"
+ 
+#include "agg/icn.h"
+#include "heroes/direction.h"
+#include "maps/mp2.h"
 
 int ObjTree::GetPassable(u32 index)
 {

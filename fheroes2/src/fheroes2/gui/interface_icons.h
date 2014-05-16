@@ -23,8 +23,8 @@
 #ifndef H2INTERFACE_ICONS_H
 #define H2INTERFACE_ICONS_H
 
-#include "interface_list.h"
-#include "interface_border.h"
+#include "gui/interface_border.h"
+#include "gui/interface_list.h"
 
 enum icons_t { ICON_HEROES = 0x01, ICON_CASTLES = 0x02, ICON_ANY = ICON_HEROES|ICON_CASTLES };
 

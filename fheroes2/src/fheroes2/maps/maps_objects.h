@@ -22,12 +22,13 @@
 #ifndef H2MAPS_OBJECTS_H
 #define H2MAPS_OBJECTS_H
 
-#include <vector>
 #include <string>
-#include "resource.h"
-#include "artifact.h"
-#include "position.h"
-#include "gamedefs.h"
+#include <vector>
+ 
+#include "maps/position.h"
+#include "resource/artifact.h"
+#include "resource/resource.h"
+#include "system/gamedefs.h"
 
 struct MapEvent : public ObjectSimple, public MapPosition
 {

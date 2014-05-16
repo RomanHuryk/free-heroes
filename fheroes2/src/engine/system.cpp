@@ -20,14 +20,16 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <locale>
-#include <sstream>
-#include <fstream>
+#include "system.h"
+
 #include <cctype>
 #include <cstdlib>
+ 
+#include <fstream>
+#include <locale>
+#include <sstream>
 
-#include "SDL.h"
-#include "system.h"
+#include <SDL.h>
 
 #if defined(__MINGW32CE__) || defined(__MINGW32__)
 #include <windows.h>

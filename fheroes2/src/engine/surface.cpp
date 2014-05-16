@@ -20,24 +20,26 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "surface.h"
+
+#include <cstring>
 #include <algorithm>
 #include <iostream>
 #include <iomanip>
-#include <sstream>
-#include <cstring>
 #include <memory>
-#include "surface.h"
+#include <sstream>
+ 
 #include "error.h"
 #include "localevent.h"
 #include "palette_h2.h"
 #include "display.h"
 
 #ifdef WITH_TTF
-#include "SDL_ttf.h"
+#include <SDL_ttf.h>
 #endif
 
 #ifdef WITH_IMAGE
-#include "SDL_image.h"
+#include <SDL_image.h>
 #include "IMG_savepng.h"
 #endif
 

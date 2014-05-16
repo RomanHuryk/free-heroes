@@ -20,10 +20,11 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "settings.h"
-#include "direction.h"
-#include "icn.h"
-#include "mp2.h"
+#include "maps/mp2.h"
+ 
+#include "agg/icn.h"
+#include "heroes/direction.h"
+#include "system/settings.h"
 
 /* return name icn object */
 int MP2::GetICNObject(int type)

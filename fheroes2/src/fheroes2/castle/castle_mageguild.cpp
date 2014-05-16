@@ -20,19 +20,21 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "castle/mageguild.h"
+ 
 #include <algorithm>
-#include <vector>
 #include <string>
-#include "agg.h"
-#include "button.h"
-#include "cursor.h"
-#include "castle.h"
-#include "dialog.h"
-#include "game.h"
-#include "race.h"
-#include "settings.h"
-#include "mageguild.h"
-#include "text.h"
+#include <vector>
+ 
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "kingdom/race.h"
+#include "system/settings.h"
 
 RowSpells::RowSpells(const Point & pos, const Castle & castle, int lvl)
 {

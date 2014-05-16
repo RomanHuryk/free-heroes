@@ -20,13 +20,15 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "maps/maps_objects.h"
+
 #include <algorithm>
-#include "color.h"
-#include "dialog.h"
-#include "settings.h"
-#include "mp2.h"
-#include "game.h"
-#include "maps_objects.h"
+ 
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "kingdom/color.h"
+#include "maps/mp2.h"
+#include "system/settings.h"
 
 #define SIZEMESSAGE 400
 

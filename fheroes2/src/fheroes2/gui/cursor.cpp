@@ -20,10 +20,11 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "settings.h"
-#include "cursor.h"
-#include "sprite.h"
+#include "gui/cursor.h"
+ 
+#include "agg/agg.h"
+#include "agg/sprite.h"
+#include "system/settings.h"
 
 /* constructor */
 Cursor::Cursor() : theme(NONE), offset_x(0), offset_y(0)

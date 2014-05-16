@@ -26,8 +26,9 @@
 #include <utility>
 #include <string>
 #include <vector>
-#include "bitmodes.h"
-#include "army_troop.h"
+ 
+#include "army/army_troop.h"
+#include "system/bitmodes.h"
 
 class Castle;
 class HeroBase;

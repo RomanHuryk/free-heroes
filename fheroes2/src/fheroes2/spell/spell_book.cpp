@@ -20,18 +20,20 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "spell/spell_book.h"
+
 #include <algorithm>
 #include <functional>
-#include "agg.h"
-#include "text.h"
-#include "game.h"
-#include "cursor.h"
-#include "dialog.h"
-#include "heroes_base.h"
-#include "skill.h"
-#include "dialog_selectitems.h"
-#include "settings.h"
-#include "spell_book.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "dialog/dialog_selectitems.h"
+#include "game/game.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "heroes/heroes_base.h"
+#include "heroes/skill.h"
+#include "system/settings.h"
 
 #define SPELL_PER_PAGE		6
 #define SPELL_PER_PAGE_SMALL	2

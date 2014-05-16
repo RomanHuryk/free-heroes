@@ -25,9 +25,10 @@
 
 #ifdef WITH_TTF
 #include <string>
-#include "types.h"
-#include "SDL_ttf.h"
+#include <SDL_ttf.h>
 
+#include "types.h"
+ 
 class Surface;
 
 namespace SDL

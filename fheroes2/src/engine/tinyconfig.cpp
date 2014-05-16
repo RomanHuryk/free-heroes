@@ -20,13 +20,14 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <fstream>
-#include <iterator>
-#include <cctype>
-#include <iostream>
-#include <algorithm>
-
 #include "tinyconfig.h"
+ 
+#include <cctype>
+#include <algorithm>
+#include <fstream>
+#include <iostream>
+#include <iterator>
+
 #include "tools.h"
 
 bool SpaceCompare(char a, char b)

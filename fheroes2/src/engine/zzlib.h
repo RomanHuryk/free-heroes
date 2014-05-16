@@ -25,11 +25,12 @@
 
 #ifdef WITH_ZLIB
 
-#include <vector>
 #include <iostream>
-#include "types.h"
-#include "surface.h"
+#include <vector>
+
 #include "serialize.h"
+#include "surface.h"
+#include "types.h"
 
 class ZSurface : public Surface
 {

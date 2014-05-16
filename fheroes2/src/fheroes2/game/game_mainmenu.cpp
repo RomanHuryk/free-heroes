@@ -20,15 +20,16 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "gamedefs.h"
-#include "agg.h"
-#include "text.h"
-#include "cursor.h"
-#include "dialog.h"
-#include "button.h"
-#include "settings.h"
-#include "pocketpc.h"
-#include "game.h"
+#include "game/game.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "pocketpc/pocketpc.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 #define NEWGAME_DEFAULT 1
 #define LOADGAME_DEFAULT 5

@@ -20,20 +20,22 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.              *
  ****************************************************************************/
 
-#include <string>
+#include "heroes/heroes.h"
+
 #include <algorithm>
-#include "agg.h"
-#include "button.h"
-#include "cursor.h"
-#include "settings.h"
-#include "text.h"
-#include "army.h"
-#include "heroes.h"
-#include "army_bar.h"
-#include "heroes_indicator.h"
-#include "pocketpc.h"
-#include "game.h"
-#include "game_interface.h"
+#include <string>
+ 
+#include "agg/agg.h"
+#include "army/army.h"
+#include "army/army_bar.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "heroes/heroes_indicator.h"
+#include "pocketpc/pocketpc.h"
+#include "system/settings.h"
 
 void RedrawPrimarySkillInfo(const Point &, PrimarySkillsBar*, PrimarySkillsBar*);
 

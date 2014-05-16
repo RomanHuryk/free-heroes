@@ -22,20 +22,20 @@
 #ifndef H2ENGINE_H
 #define H2ENGINE_H
 
-#include "types.h"
-#include "sprites.h"
-#include "display.h"
-#include "localevent.h"
-#include "error.h"
-#include "rect.h"
-#include "surface.h"
-#include "rand.h"
-#include "tools.h"
 #include "audio.h"
+#include "audio_cdrom.h"
 #include "audio_mixer.h"
 #include "audio_music.h"
-#include "audio_cdrom.h"
+#include "display.h"
+#include "error.h"
+#include "localevent.h"
+#include "rand.h"
+#include "rect.h"
 #include "serialize.h"
+#include "sprites.h"
+#include "surface.h"
+#include "tools.h"
+#include "types.h"
 
 #define INIT_VIDEO	SDL_INIT_VIDEO
 #define INIT_AUDIO	SDL_INIT_AUDIO

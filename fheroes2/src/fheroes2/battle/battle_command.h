@@ -24,8 +24,9 @@
 #define H2BATTLE_COMMAND_H
 
 #include "serialize.h"
-#include "gamedefs.h"
-#include "battle_board.h"
+ 
+#include "battle/battle_board.h"
+#include "system/gamedefs.h"
 
 namespace Battle
 {

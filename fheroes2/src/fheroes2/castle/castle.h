@@ -24,14 +24,15 @@
 
 #include <vector>
 #include <string>
-#include "mageguild.h"
-#include "captain.h"
-#include "army.h"
-#include "bitmodes.h"
-#include "heroes.h"
-#include "sprite.h"
-#include "castle_heroes.h"
-#include "position.h"
+ 
+#include "agg/sprite.h"
+#include "army/army.h"
+#include "castle/captain.h"
+#include "castle/castle_heroes.h"
+#include "castle/mageguild.h"
+#include "heroes/heroes.h"
+#include "maps/position.h"
+#include "system/bitmodes.h"
 
 class Heroes;
 namespace Maps { class Tiles; }

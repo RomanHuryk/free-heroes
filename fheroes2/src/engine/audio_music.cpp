@@ -20,14 +20,14 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <iostream>
-
-#include "system.h"
-#include "audio_mixer.h"
 #include "audio_music.h"
 
+#include <iostream>
+#include "audio_mixer.h"
+#include "system.h"
+
 #ifdef WITH_MIXER
-#include "SDL_mixer.h"
+#include <SDL_mixer.h>
 
 namespace Music
 {

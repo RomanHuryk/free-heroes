@@ -20,23 +20,24 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "text.h"
-#include "button.h"
-#include "cursor.h"
-#include "settings.h"
-#include "monster.h"
-#include "morale.h"
-#include "speed.h"
-#include "luck.h"
-#include "army.h"
-#include "skill.h"
-#include "dialog.h"
-#include "game.h"
-#include "payment.h"
-#include "pocketpc.h"
-#include "battle.h"
-#include "world.h"
+#include "dialog/dialog.h"
+ 
+#include "agg/agg.h"
+#include "army/army.h"
+#include "battle/battle.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "heroes/skill.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
+#include "kingdom/payment.h"
+#include "kingdom/speed.h"
+#include "kingdom/world.h"
+#include "monster/monster.h"
+#include "pocketpc/pocketpc.h"
+#include "system/settings.h"
 
 void DrawMonsterStats(const Point &, const Troop &);
 void DrawBattleStats(const Point &, const Troop &);

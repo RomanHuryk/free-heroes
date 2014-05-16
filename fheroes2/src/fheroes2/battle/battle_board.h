@@ -25,8 +25,8 @@
 
 #include <functional>
 
-#include "battle.h"
-#include "battle_cell.h"
+#include "battle/battle.h"
+#include "battle/battle_cell.h"
 
 #define ARENAW 11
 #define ARENAH 9
@@ -36,8 +36,6 @@ namespace Battle
 {
     inline direction_t & operator++ (direction_t & d){ return d = ( CENTER == d ? TOP_LEFT : direction_t(d << 1)); }
     inline direction_t & operator-- (direction_t & d){ return d = ( TOP_LEFT == d ? CENTER : direction_t(d >> 1)); }
-
-    typedef std::vector<s32> Indexes;
 
     class Board : public std::vector<Cell>
     {

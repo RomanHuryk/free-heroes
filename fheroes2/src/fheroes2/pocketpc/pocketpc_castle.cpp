@@ -20,24 +20,26 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "pocketpc/pocketpc.h"
+
 #include <algorithm>
 #include <vector>
-#include "agg.h"
-#include "cursor.h"
-#include "settings.h"
-#include "text.h"
-#include "button.h"
-#include "castle.h"
-#include "dialog.h"
-#include "kingdom.h"
-#include "heroes.h"
-#include "world.h"
-#include "race.h"
-#include "game.h"
-#include "army_bar.h"
-#include "buildinginfo.h"
-#include "profit.h"
-#include "pocketpc.h"
+ 
+#include "agg/agg.h"
+#include "army/army_bar.h"
+#include "castle/buildinginfo.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "heroes/heroes.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/profit.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "system/settings.h"
 
 void RedrawTownSprite(const Rect &, const Castle &);
 void RedrawBackground(const Rect &, const Castle &);

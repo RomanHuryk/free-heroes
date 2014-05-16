@@ -20,21 +20,23 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "agg/icn.h"
+
 #include <cmath>
 #include <cstring>
-#include "agg.h"
-#include "settings.h"
-#include "heroes.h"
-#include "spell.h"
-#include "objcrck.h"
-#include "objdirt.h"
-#include "objdsrt.h"
-#include "objgras.h"
-#include "objlava.h"
-#include "objsnow.h"
-#include "objswmp.h"
-#include "race.h"
-#include "icn.h"
+
+#include "agg/agg.h"
+#include "heroes/heroes.h"
+#include "kingdom/race.h"
+#include "objects/objcrck.h"
+#include "objects/objdirt.h"
+#include "objects/objdsrt.h"
+#include "objects/objgras.h"
+#include "objects/objlava.h"
+#include "objects/objsnow.h"
+#include "objects/objswmp.h"
+#include "spell/spell.h"
+#include "system/settings.h"
 
 namespace ICN
 {

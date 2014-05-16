@@ -20,24 +20,25 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "agg/agg.h"
+ 
 #include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <map>
 #include <vector>
 
-#include "system.h"
-#include "font.h"
-#include "settings.h"
-#include "text.h"
 #include "engine.h"
-#include "artifact.h"
-#include "dir.h"
-#include "game.h"
-#include "agg.h"
+#include "font.h"
+#include "system.h"
+#include "game/game.h"
+#include "gui/text.h"
+#include "system/dir.h"
+#include "system/settings.h"
+#include "resource/artifact.h"
 
 #ifdef WITH_ZLIB
-#include "images_pack.h"
+#include "image/images_pack.h"
 #include "zzlib.h"
 #endif
 

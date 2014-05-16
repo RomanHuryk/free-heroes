@@ -20,19 +20,21 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "gui/interface_status.h"
+
 #include <algorithm>
-#include "agg.h"
-#include "text.h"
-#include "cursor.h"
-#include "world.h"
-#include "settings.h"
-#include "kingdom.h"
-#include "castle.h"
-#include "heroes.h"
-#include "army.h"
-#include "resource.h"
-#include "game_interface.h"
-#include "interface_status.h"
+ 
+#include "agg/agg.h"
+#include "army/army.h"
+#include "castle/castle.h"
+#include "game/game_interface.h"
+#include "gui/text.h"
+#include "gui/cursor.h"
+#include "heroes/heroes.h"
+#include "kingdom/world.h"
+#include "kingdom/kingdom.h"
+#include "resource/resource.h"
+#include "system/settings.h"
 
 #define AITURN_REDRAW_EXPIRE 20
 #define RESOURCE_WINDOW_EXPIRE 2500

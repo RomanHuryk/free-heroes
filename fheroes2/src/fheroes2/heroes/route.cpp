@@ -20,15 +20,17 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "heroes/route.h"
+ 
 #include <iostream>
-#include "agg.h"
-#include "world.h"
-#include "heroes.h"
-#include "direction.h"
-#include "maps.h"
-#include "game.h"
-#include "settings.h"
-#include "route.h"
+ 
+#include "agg/agg.h"
+#include "game/game.h"
+#include "heroes/direction.h"
+#include "heroes/heroes.h"
+#include "kingdom/world.h"
+#include "maps/maps.h"
+#include "system/settings.h"
 
 s32 Route::Step::GetIndex(void) const
 {

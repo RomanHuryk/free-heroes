@@ -20,17 +20,18 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "gui/interface_radar.h"
+ 
 #include <cmath>
 
-#include "agg.h"
-#include "settings.h"
-#include "game.h"
-#include "game_interface.h"
-#include "ground.h"
-#include "world.h"
-#include "castle.h"
-#include "cursor.h"
-#include "interface_radar.h"
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "gui/cursor.h"
+#include "kingdom/world.h"
+#include "maps/ground.h"
+#include "system/settings.h"
 
 #define RADARCOLOR	0x40	// index palette
 #define COLOR_DESERT	0x70

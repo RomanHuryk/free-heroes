@@ -22,8 +22,8 @@
 #ifndef H2MAPS_H
 #define H2MAPS_H
 
-#include "gamedefs.h"
-#include "direction.h"
+#include "heroes/direction.h"
+#include "system/gamedefs.h"
 
 #define TILEWIDTH 32
 

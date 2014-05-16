@@ -20,12 +20,11 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include <iomanip>
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include <iomanip>
 
-#include "SDL.h"
 #include "engine.h"
 #include "system.h"
 

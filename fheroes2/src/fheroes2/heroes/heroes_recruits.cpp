@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "world.h"
-#include "game.h"
-#include "settings.h"
-#include "heroes.h"
-#include "heroes_recruits.h"
+#include "heroes/heroes_recruits.h"
+ 
+#include "game/game.h"
+#include "heroes/heroes.h"
+#include "kingdom/world.h"
+#include "system/settings.h"
 
 Recruits::Recruits() : std::pair<int, int>(Heroes::UNKNOWN, Heroes::UNKNOWN)
 {

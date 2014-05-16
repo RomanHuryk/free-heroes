@@ -30,11 +30,12 @@
 #include <sstream>
 
 #include "system.h"
-#include "gamedefs.h"
-#include "players.h"
-#include "dir.h"
-#include "maps_fileinfo.h"
-#include "bitmodes.h"
+ 
+#include "maps/maps_fileinfo.h"
+#include "system/bitmodes.h"
+#include "system/dir.h"
+#include "system/gamedefs.h"
+#include "system/players.h"
 
 #ifdef ANDROID
 #include <android/log.h>

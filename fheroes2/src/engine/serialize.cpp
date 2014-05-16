@@ -20,13 +20,15 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <string>
-#include <sstream>
+#include "serialize.h"
+
 #include <iomanip>
 #include <iostream>
+#include <sstream>
+#include <string>
+
 #include "rect.h"
 #include "zzlib.h"
-#include "serialize.h"
 
 #define MINCAPACITY 12
 

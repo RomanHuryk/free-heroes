@@ -23,8 +23,8 @@
 #ifndef H2MAGEGUILD_H
 #define H2MAGEGUILD_H
 
-#include "gamedefs.h"
-#include "spell_storage.h"
+#include "spell/spell_storage.h"
+#include "system/gamedefs.h"
 
 class Castle;
 class HeroBase;

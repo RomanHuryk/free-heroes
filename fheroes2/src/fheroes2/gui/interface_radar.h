@@ -23,7 +23,7 @@
 #ifndef H2INTERFACE_RADAR_H
 #define H2INTERFACE_RADAR_H
 
-#include "interface_border.h"
+#include "gui/interface_border.h"
 
 namespace Interface
 {

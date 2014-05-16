@@ -23,9 +23,9 @@
 #ifndef H2BATTLE_ONLY_H
 #define H2BATTLE_ONLY_H
 
-#include "army.h"
-#include "players.h"
-#include "heroes_recruits.h"
+#include "army/army.h"
+#include "heroes/heroes_recruits.h"
+#include "system/players.h"
 
 class ArmyBar;
 class PrimarySkillsBar;

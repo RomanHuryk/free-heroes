@@ -20,35 +20,37 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "game/game.h"
+
 #include <map>
 #include <algorithm>
 
 #include "system.h"
-#include "gamedefs.h"
 #include "tinyconfig.h"
-#include "settings.h"
-#include "maps_tiles.h"
-#include "ground.h"
-#include "world.h"
-#include "kingdom.h"
-#include "castle.h"
-#include "mp2.h"
-#include "agg.h"
-#include "test.h"
-#include "cursor.h"
-#include "monster.h"
-#include "spell.h"
-#include "payment.h"
-#include "profit.h"
-#include "buildinginfo.h"
-#include "skill.h"
-#include "battle.h"
 #include "tools.h"
-#include "difficulty.h"
-#include "game_interface.h"
-#include "game_static.h"
-#include "ai.h"
-#include "game.h"
+ 
+#include "agg/agg.h"
+#include "ai/ai.h"
+#include "battle/battle.h"
+#include "castle/buildinginfo.h"
+#include "castle/castle.h"
+#include "game/difficulty.h"
+#include "game/game_interface.h"
+#include "game/game_static.h"
+#include "gui/cursor.h"
+#include "heroes/skill.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/payment.h"
+#include "kingdom/profit.h"
+#include "kingdom/world.h"
+#include "maps/ground.h"
+#include "maps/maps_tiles.h"
+#include "maps/mp2.h"
+#include "monster/monster.h"
+#include "spell/spell.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
+#include "test/test.h"
 
 namespace Game
 {

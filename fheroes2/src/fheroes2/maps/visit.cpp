@@ -20,8 +20,8 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "pairs.h"
-#include "visit.h"
+#include "maps/pairs.h"
+#include "maps/visit.h"
 
 bool Visit::isDayLife(const IndexObject & visit){ return MP2::isDayLife(visit.second); }
 bool Visit::isWeekLife(const IndexObject & visit){ return MP2::isWeekLife(visit.second); }

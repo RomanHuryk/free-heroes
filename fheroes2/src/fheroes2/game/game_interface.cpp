@@ -20,18 +20,20 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "game/game_interface.h"
+
 #include <ctime>
 #include <sstream>
-#include "agg.h"
-#include "direction.h"
-#include "settings.h"
-#include "maps.h"
-#include "mp2.h"
-#include "world.h"
-#include "game.h"
-#include "dialog.h"
-#include "players.h"
-#include "game_interface.h"
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "heroes/direction.h"
+#include "kingdom/world.h"
+#include "maps/maps.h"
+#include "maps/mp2.h"
+#include "system/players.h"
+#include "system/settings.h"
 
 Interface::Basic::Basic() : gameArea(*this), radar(*this),
 	iconsPanel(*this), buttonsArea(*this), statusWindow(*this), controlPanel(*this), redraw(0)

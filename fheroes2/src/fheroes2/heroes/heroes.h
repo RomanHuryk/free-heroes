@@ -26,12 +26,13 @@
 #include <string>
 #include <vector>
 #include <list>
-#include "route.h"
-#include "pairs.h"
-#include "visit.h"
-#include "heroes_base.h"
-#include "army.h"
-#include "gamedefs.h"
+ 
+#include "army/army.h"
+#include "heroes/heroes_base.h"
+#include "heroes/route.h"
+#include "maps/pairs.h"
+#include "maps/visit.h"
+#include "system/gamedefs.h"
 
 class Recruits;
 class Surface;

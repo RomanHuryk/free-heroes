@@ -20,24 +20,25 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "cursor.h"
-#include "settings.h"
-#include "gamedefs.h"
-#include "battle.h"
-#include "world.h"
-#include "castle.h"
-#include "kingdom.h"
-#include "heroes.h"
-#include "heroes_indicator.h"
-#include "heroes_recruits.h"
-#include "dialog_selectitems.h"
-#include "button.h"
-#include "race.h"
-#include "text.h"
-#include "game.h"
-#include "army_bar.h"
-#include "battle_only.h"
+#include "battle/battle_only.h"
+ 
+#include "agg/agg.h"
+#include "army/army_bar.h"
+#include "battle/battle.h"
+#include "castle/castle.h"
+#include "dialog/dialog_selectitems.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "heroes/heroes.h"
+#include "heroes/heroes_indicator.h"
+#include "heroes/heroes_recruits.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 #define PRIMARY_MAX_VALUE	20
 

@@ -27,10 +27,12 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                           *
  *******************************************************************************/
 
+#include "ai/simple/ai_simple.h"
+
 #include <algorithm>
-#include "heroes.h"
-#include "castle.h"
-#include "ai_simple.h"
+ 
+#include "castle/castle.h"
+#include "heroes/heroes.h"
 
 const char* AI::Type(void)
 {

@@ -20,9 +20,10 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "error.h"
+
 #include <stdexcept>
 #include <iostream>
-#include "error.h"
 #ifdef ANDROID
 #include <android/log.h>
 #endif

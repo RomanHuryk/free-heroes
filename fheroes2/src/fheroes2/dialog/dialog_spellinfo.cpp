@@ -20,14 +20,15 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "text.h"
-#include "settings.h"
-#include "cursor.h"
-#include "button.h"
-#include "spell.h"
-#include "game.h"
-#include "dialog.h"
+#include "dialog/dialog.h"
+ 
+#include "agg/agg.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "spell/spell.h"
+#include "system/settings.h"
 
 void Dialog::SpellInfo(const Spell & spell, bool ok_button)
 {

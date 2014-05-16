@@ -20,16 +20,17 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "gamedefs.h"
-#include "agg.h"
-#include "game.h"
-#include "dialog.h"
-#include "world.h"
-#include "kingdom.h"
-#include "castle.h"
-#include "settings.h"
-#include "game_interface.h"
-#include "game_over.h"
+#include "game/game_over.h"
+ 
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/world.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 const char* GameOver::GetString(int cond)
 {

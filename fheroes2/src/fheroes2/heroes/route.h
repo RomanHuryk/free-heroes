@@ -23,8 +23,8 @@
 #define H2HEROPATH_H
 
 #include <list>
-#include "gamedefs.h"
-#include "direction.h"
+#include "heroes/direction.h"
+#include "system/gamedefs.h"
 
 class Heroes;
 

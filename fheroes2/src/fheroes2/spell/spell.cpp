@@ -20,15 +20,16 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "heroes_base.h"
-#include "artifact.h"
-#include "settings.h"
-#include "race.h"
-#include "army.h"
-#include "resource.h"
-#include "game.h"
-#include "game_static.h"
-#include "spell.h"
+#include "spell/spell.h"
+ 
+#include "army/army.h"
+#include "game/game.h"
+#include "game/game_static.h"
+#include "heroes/heroes_base.h"
+#include "kingdom/race.h"
+#include "resource/artifact.h"
+#include "resource/resource.h"
+#include "system/settings.h"
 
 enum { SP_DISABLE = 0x01 };
 

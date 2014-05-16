@@ -23,8 +23,9 @@
 #define H2DISPLAY_H
 
 #include <string>
-#include "surface.h"
+ 
 #include "rect.h"
+#include "surface.h"
 
 class UpdateRects
 {

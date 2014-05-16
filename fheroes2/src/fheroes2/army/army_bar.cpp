@@ -20,17 +20,18 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "agg.h"
-#include "cursor.h"
-#include "settings.h"
-#include "race.h"
-#include "dialog.h"
-#include "dialog_selectitems.h"
-#include "world.h"
-#include "army.h"
-#include "text.h"
-#include "army_troop.h"
-#include "army_bar.h"
+#include "army/army_bar.h"
+ 
+#include "agg/agg.h"
+#include "army/army.h"
+#include "army/army_troop.h"
+#include "dialog/dialog.h"
+#include "dialog/dialog_selectitems.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "system/settings.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
 
 void RedistributeArmy(ArmyTroop & troop1 /* from */, ArmyTroop & troop2 /* to */)
 {

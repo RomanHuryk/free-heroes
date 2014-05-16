@@ -23,8 +23,8 @@
 #ifndef H2INTERFACE_BUTTONS_H
 #define H2INTERFACE_BUTTONS_H
 
-#include "button.h"
-#include "interface_border.h"
+#include "gui/button.h"
+#include "gui/interface_border.h"
 
 namespace Interface
 {

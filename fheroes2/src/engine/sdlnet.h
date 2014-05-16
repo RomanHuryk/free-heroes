@@ -23,12 +23,12 @@
 #ifndef SDLNET_H
 #define SDLNET_H
 
-#include <string>
 #include <iostream>
+#include <string>
 #include "types.h"
 
 #ifdef WITH_NET
-#include "SDL_net.h"
+#include <SDL_net.h>
 
 namespace Network
 {

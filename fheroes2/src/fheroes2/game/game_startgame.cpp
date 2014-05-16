@@ -20,36 +20,37 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <vector>
-#include <algorithm>
-
 #ifdef AI
 #undef AI
 #endif
 
-#include "system.h"
-#include "ai.h"
-#include "agg.h"
+#include "game/game.h"
+
+#include <algorithm>
+#include <vector>
+
 #include "engine.h"
-#include "button.h"
-#include "dialog.h"
-#include "world.h"
-#include "cursor.h"
-#include "castle.h"
-#include "heroes.h"
-#include "splitter.h"
-#include "maps_tiles.h"
-#include "ground.h"
-#include "game.h"
-#include "game_interface.h"
-#include "game_io.h"
-#include "game_over.h"
-#include "settings.h"
-#include "route.h"
-#include "kingdom.h"
-#include "pocketpc.h"
-#include "battle_only.h"
-#include "ai.h"
+#include "system.h"
+ 
+#include "ai/ai.h"
+#include "agg/agg.h"
+#include "battle/battle_only.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game_interface.h"
+#include "game/game_io.h"
+#include "game/game_over.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/splitter.h"
+#include "heroes/heroes.h"
+#include "heroes/route.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/world.h"
+#include "maps/ground.h"
+#include "maps/maps_tiles.h"
+#include "pocketpc/pocketpc.h"
+#include "system/settings.h"
 
 int Game::StartBattleOnly(void)
 {

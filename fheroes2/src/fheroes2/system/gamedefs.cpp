@@ -20,10 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "gamedefs.h"
-#include "bitmodes.h"
-#include "players.h"
+#include "system/gamedefs.h"
+
 #include "serialize.h"
+ 
+#include "system/bitmodes.h"
+#include "system/players.h"
 
 const char* strip_context(const char* c)
 {

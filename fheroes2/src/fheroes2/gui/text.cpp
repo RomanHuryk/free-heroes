@@ -20,11 +20,13 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <algorithm>
+#include "gui/text.h"
+
 #include <cctype>
-#include "agg.h"
-#include "settings.h"
-#include "text.h"
+#include <algorithm>
+ 
+#include "agg/agg.h"
+#include "system/settings.h"
 
 TextInterface::TextInterface(int ft) : font(ft)
 {

@@ -23,9 +23,9 @@
 #ifndef H2INTERFACE_ITEMSBAR_H
 #define H2INTERFACE_ITEMSBAR_H
 
-#include <utility>
 #include <algorithm>
-#include "gamedefs.h"
+#include <utility>
+#include "system/gamedefs.h"
 
 namespace Interface
 {
@@ -473,8 +473,8 @@ namespace Interface
     };
 }
 
-#include "button.h"
-#include "splitter.h"
+#include "gui/button.h"
+#include "gui/splitter.h"
 
 namespace Interface
 {

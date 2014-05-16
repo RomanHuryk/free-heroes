@@ -23,7 +23,7 @@
 #ifndef H2BITMODES_H
 #define H2BITMODES_H
 
-#include "gamedefs.h"
+#include "system/gamedefs.h"
 
 #define MODES_ALL 0xFFFFFFFF
 

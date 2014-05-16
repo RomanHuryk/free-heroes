@@ -22,13 +22,13 @@
 #ifndef H2DIFFICULTY_H
 #define H2DIFFICULTY_H
 
-#include "gamedefs.h"
+#include "system/gamedefs.h"
 
 namespace Difficulty
 {
     enum
     {
-	EASY,
+		EASY,
         NORMAL,
         HARD,
         EXPERT,

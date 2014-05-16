@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "game/game.h"
+ 
 #include <algorithm>
 
-#include "gamedefs.h"
-#include "settings.h"
-#include "game.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 struct TimeDelay : std::pair<SDL::Time, int>
 {

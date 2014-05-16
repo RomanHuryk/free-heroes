@@ -20,10 +20,10 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-
 #ifdef WITH_ZLIB
-#include <zlib.h>
 #include "zzlib.h"
+
+#include <zlib.h>
 
 std::vector<u8> zlibDecompress(const u8* src, size_t srcsz, size_t realsz)
 {

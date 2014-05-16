@@ -21,13 +21,14 @@
  ***************************************************************************/
 
 #include <algorithm>
-#include "agg.h"
-#include "castle.h"
-#include "settings.h"
-#include "cursor.h"
-#include "race.h"
-#include "text.h"
-#include "game.h"
+ 
+#include "agg/agg.h"
+#include "castle/castle.h"
+#include "game/game.h"
+#include "gui/cursor.h"
+#include "gui/text.h"
+#include "kingdom/race.h"
+#include "system/settings.h"
 
 void CastleRedrawTownName(const Castle &, const Point &);
 void CastleRedrawCurrentBuilding(const Castle &, const Point &, const CastleDialog::CacheBuildings &, u32 build, u32 flash);

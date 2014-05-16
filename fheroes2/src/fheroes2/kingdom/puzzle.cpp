@@ -20,18 +20,20 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <vector>
+#include "kingdom/puzzle.h"
+ 
 #include <algorithm>
-#include "cursor.h"
-#include "settings.h"
-#include "agg.h"
-#include "button.h"
-#include "game.h"
-#include "game_interface.h"
-#include "interface_gamearea.h"
-#include "interface_radar.h"
-#include "world.h"
-#include "puzzle.h"
+#include <vector>
+ 
+#include "agg/agg.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/interface_gamearea.h"
+#include "gui/interface_radar.h"
+#include "kingdom/world.h"
+#include "system/settings.h"
 
 const u8 zone1_index[] = { 0, 1, 2, 3, 4, 5, 6, 11, 12, 17, 18, 23, 24, 29, 30, 35, 36, 41, 42, 43, 44, 45, 46, 47 };
 const u8 zone2_index[] = { 7, 8, 9, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 38, 39, 40 };

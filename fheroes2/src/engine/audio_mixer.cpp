@@ -20,13 +20,15 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "audio_mixer.h"
+
 #include <algorithm>
 #include <iostream>
-#include "engine.h"
+
 #include "audio.h"
 #include "audio_cdrom.h"
 #include "audio_music.h"
-#include "audio_mixer.h"
+#include "engine.h"
 
 namespace Mixer
 {
@@ -41,7 +43,7 @@ bool Mixer::isValid(void)
 }
 
 #ifdef WITH_MIXER
-#include "SDL_mixer.h"
+#include <SDL_mixer.h>
 
 void FreeChannel(int channel)
 {

@@ -23,8 +23,9 @@
 #ifndef H2SELECT_SCENARIO_H
 #define H2SELECT_SCENARIO_H
 
-#include "maps_fileinfo.h"
-#include "interface_list.h"
+#include "dialog/dialog.h"
+#include "gui/interface_list.h"
+#include "maps/maps_fileinfo.h"
 
 class ScenarioListBox : public Interface::ListBox<Maps::FileInfo>
 {

@@ -20,13 +20,13 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "mp2.h"
-#include "world.h"
-#include "agg.h"
-#include "text.h"
-#include "settings.h"
-#include "pairs.h"
-#include "resource.h"
+#include "maps/mp2.h"
+#include "kingdom/world.h"
+#include "agg/agg.h"
+#include "gui/text.h"
+#include "system/settings.h"
+#include "maps/pairs.h"
+#include "resource/resource.h"
 
 Funds::Funds()
     : wood(0), mercury(0), ore(0), sulfur(0), crystal(0), gems(0), gold(0)

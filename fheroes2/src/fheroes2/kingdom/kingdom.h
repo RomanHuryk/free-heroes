@@ -22,15 +22,16 @@
 #ifndef H2KINGDOM_H
 #define H2KINGDOM_H
 
-#include <vector>
 #include <map>
-#include "payment.h"
-#include "puzzle.h"
-#include "mp2.h"
-#include "pairs.h"
-#include "heroes.h"
-#include "castle.h"
-#include "heroes_recruits.h"
+#include <vector>
+ 
+#include "castle/castle.h"
+#include "heroes/heroes.h"
+#include "heroes/heroes_recruits.h"
+#include "kingdom/payment.h"
+#include "kingdom/puzzle.h"
+#include "maps/mp2.h"
+#include "maps/pairs.h"
 
 class Player;
 class Castle;

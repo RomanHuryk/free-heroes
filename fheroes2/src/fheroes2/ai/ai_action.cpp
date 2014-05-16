@@ -20,28 +20,29 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <functional>
+#include "ai/ai.h"
+ 
 #include <algorithm>
+#include <functional>
 
-#include "settings.h"
-#include "kingdom.h"
-#include "castle.h"
-#include "army.h"
-#include "battle.h"
-#include "luck.h"
-#include "morale.h"
-#include "game.h"
-#include "race.h"
-#include "difficulty.h"
-#include "dialog.h"
-#include "world.h"
-#include "payment.h"
-#include "heroes.h"
-#include "cursor.h"
-#include "game_interface.h"
-#include "interface_gamearea.h"
-#include "maps_tiles.h"
-#include "ai.h"
+#include "army/army.h"
+#include "battle/battle.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/difficulty.h"
+#include "game/game.h"
+#include "game/game_interface.h"
+#include "gui/cursor.h"
+#include "gui/interface_gamearea.h"
+#include "heroes/heroes.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/luck.h"
+#include "kingdom/morale.h"
+#include "kingdom/payment.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "maps/maps_tiles.h"
+#include "system/settings.h"
 
 void AIToMonster(Heroes & hero, u32 obj, s32 dst_index);
 void AIToPickupResource(Heroes & hero, u32 obj, s32 dst_index);

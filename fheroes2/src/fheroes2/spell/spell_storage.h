@@ -24,8 +24,8 @@
 #define H2SPELLSTORAGE_H
 
 #include <vector>
-#include "spell.h"
-#include "gamedefs.h"
+#include "spell/spell.h"
+#include "system/gamedefs.h"
 
 class Artifact;
 class BagArtifacts;

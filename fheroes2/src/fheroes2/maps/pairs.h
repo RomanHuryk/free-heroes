@@ -24,9 +24,10 @@
 #define H2PAIRS_H_
 
 #include <utility>
-#include "mp2.h"
-#include "color.h"
-#include "resource.h"
+ 
+#include "kingdom/color.h"
+#include "maps/mp2.h"
+#include "resource/resource.h"
 
 class IndexDistance : public std::pair<s32, u32>
 {

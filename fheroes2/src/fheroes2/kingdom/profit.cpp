@@ -21,12 +21,13 @@
  ***************************************************************************/
 
 #include <cstring>
-#include "castle.h"
-#include "artifact.h"
-#include "race.h"
-#include "skill.h"
-#include "settings.h"
-#include "profit.h"
+ 
+#include "castle/castle.h"
+#include "heroes/skill.h"
+#include "kingdom/profit.h"
+#include "kingdom/race.h"
+#include "resource/artifact.h"
+#include "system/settings.h"
 
 struct profitstats_t
 {

@@ -20,17 +20,19 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include <sstream>
+#include "game/game.h"
+
 #include <ctime>
+#include <sstream>
 #include <algorithm>
 
 #include "system.h"
-#include "gamedefs.h"
 #include "tinyconfig.h"
-#include "agg.h"
-#include "settings.h"
-#include "game.h"
-#include "game_interface.h"
+ 
+#include "agg/agg.h"
+#include "game/game_interface.h"
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 namespace Game
 {

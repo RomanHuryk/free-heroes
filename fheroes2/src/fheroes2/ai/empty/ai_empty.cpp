@@ -20,18 +20,19 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "kingdom.h"
-#include "castle.h"
-#include "heroes.h"
-#include "dialog.h"
-#include "battle.h"
-#include "battle_arena.h"
-#include "battle_command.h"
-#include "battle_troop.h"
-#include "ai.h"
-#include "settings.h"
-#include "agg.h"
-#include "game_interface.h"
+#include "ai/ai.h"
+ 
+#include "agg/agg.h"
+#include "battle/battle.h"
+#include "battle/battle_arena.h"
+#include "battle/battle_command.h"
+#include "battle/battle_troop.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game_interface.h"
+#include "heroes/heroes.h"
+#include "kingdom/kingdom.h"
+#include "system/settings.h"
 
 const char* AI::Type(void)
 {

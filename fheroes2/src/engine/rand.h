@@ -22,12 +22,13 @@
 #ifndef H2RAND_H
 #define H2RAND_H
 
-#include <vector>
+#include <iterator>
 #include <list>
 #include <utility>
-#include <iterator>
-#include "types.h"
+#include <vector>
 
+#include "types.h"
+ 
 namespace Rand
 {
     void Init(void);

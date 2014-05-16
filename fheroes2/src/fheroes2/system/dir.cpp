@@ -20,13 +20,14 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "system/dir.h"
+
 #include <dirent.h>
 
 #include "system.h"
-#include "gamedefs.h"
-#include "settings.h"
-#include "dir.h"
-
+ 
+#include "system/gamedefs.h"
+#include "system/settings.h"
 
 void ListFiles::Append(const ListFiles & list)
 {

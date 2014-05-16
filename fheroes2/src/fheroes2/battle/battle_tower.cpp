@@ -20,11 +20,12 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "castle.h"
-#include "settings.h"
-#include "battle_cell.h"
-#include "battle_troop.h"
-#include "battle_tower.h"
+#include "battle/battle_tower.h"
+ 
+#include "battle/battle_cell.h"
+#include "battle/battle_troop.h"
+#include "castle/castle.h"
+#include "system/settings.h"
 
 Battle::Tower::Tower(const Castle & castle, int twr) : Unit(Troop(Monster::ARCHER, 0), -1, false),
     type(twr), color(castle.GetColor()), bonus(0), valid(true)

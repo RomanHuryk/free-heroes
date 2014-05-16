@@ -23,8 +23,8 @@
 #ifndef H2BUILDINGINFO_H
 #define H2BUILDINGINFO_H
 
-#include "payment.h"
-#include "castle.h"
+#include "castle/castle.h"
+#include "kingdom/payment.h"
 
 class StatusBar;
 class Castle;

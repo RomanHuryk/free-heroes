@@ -20,25 +20,27 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "heroes/heroes.h"
+
 #include <string>
-#include "agg.h"
-#include "button.h"
-#include "world.h"
-#include "cursor.h"
-#include "settings.h"
-#include "payment.h"
-#include "heroes.h"
-#include "skill.h"
-#include "race.h"
-#include "kingdom.h"
-#include "text.h"
-#include "castle.h"
-#include "game.h"
-#include "dialog.h"
-#include "heroes_indicator.h"
-#include "army_bar.h"
-#include "statusbar.h"
-#include "pocketpc.h"
+ 
+#include "agg/agg.h"
+#include "army/army_bar.h"
+#include "castle/castle.h"
+#include "dialog/dialog.h"
+#include "game/game.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/statusbar.h"
+#include "gui/text.h"
+#include "heroes/heroes_indicator.h"
+#include "heroes/skill.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/payment.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "pocketpc/pocketpc.h"
+#include "system/settings.h"
 
 /* readonly: false, fade: false */
 int Heroes::OpenDialog(bool readonly, bool fade)

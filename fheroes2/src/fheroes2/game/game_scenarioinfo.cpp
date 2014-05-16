@@ -20,26 +20,28 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "game/game.h"
+
 #include <algorithm>
-#include <vector>
 #include <string>
-#include "agg.h"
-#include "gamedefs.h"
-#include "button.h"
-#include "cursor.h"
-#include "race.h"
-#include "settings.h"
-#include "maps_fileinfo.h"
-#include "dialog_selectscenario.h"
-#include "difficulty.h"
-#include "dialog.h"
-#include "text.h"
-#include "kingdom.h"
-#include "splitter.h"
-#include "world.h"
-#include "players.h"
-#include "pocketpc.h"
-#include "game.h"
+#include <vector>
+ 
+#include "agg/agg.h"
+#include "dialog/dialog.h"
+#include "dialog/dialog_selectscenario.h"
+#include "game/difficulty.h"
+#include "gui/button.h"
+#include "gui/cursor.h"
+#include "gui/splitter.h"
+#include "gui/text.h"
+#include "kingdom/kingdom.h"
+#include "kingdom/race.h"
+#include "kingdom/world.h"
+#include "maps/maps_fileinfo.h"
+#include "pocketpc/pocketpc.h"
+#include "system/gamedefs.h"
+#include "system/players.h"
+#include "system/settings.h"
 
 void RedrawScenarioStaticInfo(const Rect &);
 void RedrawRatingInfo(TextSprite &);

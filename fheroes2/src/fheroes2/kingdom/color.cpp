@@ -20,12 +20,14 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "kingdom/color.h"
+
 #include <sstream>
-#include "players.h"
-#include "settings.h"
-#include "world.h"
-#include "game.h"
-#include "color.h"
+
+#include "game/game.h"
+#include "kingdom/world.h"
+#include "system/players.h"
+#include "system/settings.h"
 
 const char* Color::String(int color)
 {

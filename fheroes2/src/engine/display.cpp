@@ -20,15 +20,17 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "display.h"
+
 #include <iostream>
 #include <sstream>
 #include <algorithm>
 #include <string>
-#include "rect.h"
-#include "types.h"
+
 #include "error.h"
+#include "rect.h"
 #include "surface.h"
-#include "display.h"
+#include "types.h"
 
 UpdateRects::UpdateRects() : bits(NULL), len(0), bf(0), bw(0)
 {

@@ -20,9 +20,10 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-#include "spell.h"
-#include "mp2.h"
-#include "m82.h"
+#include "agg/m82.h"
+
+#include "maps/mp2.h"
+#include "spell/spell.h"
 
 namespace M82
 {

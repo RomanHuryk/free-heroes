@@ -20,11 +20,13 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include "objects/objlava.h"
+
 #include <algorithm>
-#include "mp2.h"
-#include "icn.h"
-#include "direction.h"
-#include "objlava.h"
+ 
+#include "agg/icn.h"
+#include "heroes/direction.h"
+#include "maps/mp2.h"
 
 int ObjLav2::GetPassable(u32 index)
 {

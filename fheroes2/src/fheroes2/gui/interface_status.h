@@ -24,7 +24,7 @@
 #define H2INTERFACE_STATUS_H
 
 #include "thread.h"
-#include "interface_border.h"
+#include "gui/interface_border.h"
 
 class Surface;
 class Castle;
